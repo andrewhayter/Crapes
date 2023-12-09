@@ -1,0 +1,66 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Markdown content */
+.markdown {
+  line-height: 1.6;
+  color: #333;
+  font-size: 1rem;
+}
+
+.markdown a {
+  color: #0070f3;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  margin: 1.5rem 0 1rem;
+  color: #333;
+}
+
+.markdown code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.markdown pre {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+}
