@@ -1,14 +1,14 @@
 {
   "name": "nextjs-app",
   "version": "1.0.0",
-  "description": "A modern web application using the Next.js framework",
+  "description": "A modern web application using the Next.js framework with content about Solana, anchor and rust.",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "keywords": ["nextjs", "react", "typescript"],
+  "keywords": ["nextjs", "react", "typescript", "solana", "anchor", "rust"],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,8 +17,8 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "typescript": "^4.1.3",
-    "@types/react": "^17.0.0",
-    "@types/node": "^14.14.20"
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.1.5"
   }
 }

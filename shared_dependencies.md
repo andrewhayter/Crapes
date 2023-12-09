@@ -1,41 +1,23 @@
-Shared Dependencies:
+The shared dependencies between the files we are generating are:
 
-1. Next.js: This is the main framework used for building the application. It is used in all the pages and API files.
+1. **Next.js**: This is the main framework used for server-side rendering and routing. It is used in all the `.tsx` files.
 
-2. React: Next.js is built on top of React, so all the JSX syntax in the .tsx files is actually React.
+2. **React**: Next.js is built on top of React, so all `.tsx` files will also share React dependencies.
 
-3. TypeScript: All .tsx and .ts files share the TypeScript language for type checking and improved developer experience.
+3. **TypeScript**: TypeScript is used for type checking and improved developer experience. It is used in all `.tsx` and `.ts` files.
 
-4. CSS Modules: The .css files in the styles directory are CSS Modules, which are used in the .tsx files for styling.
+4. **CSS Modules**: CSS Modules are used for styling the components. They are used in the `styles/globals.css` and `styles/Home.module.css` files.
 
-5. Markdown: The .md files in the content directory are written in Markdown, which is a lightweight markup language with plain-text-formatting syntax.
+5. **Node.js and npm**: Node.js is the runtime environment and npm is the package manager used for managing all the dependencies of the project. They are used in the `package.json` file.
 
-6. Node.js and npm: The package.json file is used by npm, which is the default package manager for the Node.js JavaScript runtime.
+6. **Markdown**: Markdown is used for creating the content files. It is used in the `content/solana.md`, `content/anchor.md`, and `content/rust.md` files.
 
-7. Environment Variables: The .env.local file is used to store environment variables, which can be used in any .ts or .tsx files.
+7. **Common Components**: There might be common React components that are used across different pages. These components will be shared among the `.tsx` files.
 
-8. Git: The .gitignore file is used by Git, which is a distributed version control system.
+8. **Common Functions**: There might be common utility functions that are used across different files. These functions will be shared among the `.tsx` and `.ts` files.
 
-9. Vercel: The vercel.svg file is a logo image file used by Vercel, the deployment platform for Next.js.
+9. **Common Variables**: There might be common variables that are used across different files. These variables will be shared among the `.tsx` and `.ts` files.
 
-10. getStaticProps: This is a Next.js function used for fetching data at build time. It can be used in any .tsx file.
+10. **Common Styles**: There might be common styles that are used across different pages. These styles will be shared among the `.css` files.
 
-11. getServerSideProps: This is a Next.js function used for fetching data on each request. It can be used in any .tsx file.
-
-12. API Routes: The /api directory is used for creating API routes, which can be used in any .tsx file for fetching data.
-
-13. _app.tsx: This is a special Next.js file that initializes pages. It can import global styles and wrap all pages with layout components.
-
-14. _document.tsx: This is a special Next.js file that can customize the HTML document.
-
-15. index.tsx: This is the main page of the application.
-
-16. hello.ts: This is an example API route provided by Next.js.
-
-17. posts.ts: This file could contain functions for fetching posts from the markdown files.
-
-18. index.d.ts: This file could contain TypeScript type definitions, which can be used in any .ts or .tsx file.
-
-19. next.config.js: This file is used for customizing the Next.js configuration.
-
-20. tsconfig.json: This file is used for configuring TypeScript compiler options.
+11. **Common API Endpoints**: There might be common API endpoints that are used across different pages. These endpoints will be shared among the `.tsx` and `.ts` files.
